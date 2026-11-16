@@ -1,0 +1,36 @@
+{
+  "name": "footstop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy",
+    "test": "vitest run",
+    "build:db": "node scripts/build-db.ts",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "flag-icons": "^7.5.0",
+    "lucide-react": "^1.48.0",
+    "motion": "^13.4.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.60.0",
+    "@cloudflare/workers-types": "^5.20260924.1",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.1",
+    "wrangler": "^4.139.0"
+  }
+}
