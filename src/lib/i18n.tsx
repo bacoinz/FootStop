@@ -18,6 +18,7 @@ const pt = {
   join: "Entrar",
   howToPlay: "Como jogar",
   support: "Apoiar no Ko-fi",
+  enjoyedIt: "Gostaste do jogo? O Footstop é grátis e sem anúncios chatos.",
   foundBug: "Encontraste um bug?",
   language: "Idioma",
 
@@ -161,6 +162,7 @@ const en: Dict = {
   join: "Join",
   howToPlay: "How to play",
   support: "Support on Ko-fi",
+  enjoyedIt: "Enjoyed the game? Footstop is free and has no annoying ads.",
   foundBug: "Found a bug?",
   language: "Language",
 

@@ -379,3 +379,8 @@ a { color: #fff; }
   .league th:nth-child(6), .league td:nth-child(6) { display: none; }
   .sheet { padding: 20px 10px 12px 34px; }
 }
+
+/* ---------- Ko-fi on the final screen and ad slot ---------- */
+.end-kofi { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 16px; margin: 18px 0 6px; font-size: 14px; color: var(--muted); text-align: center; }
+.ad-slot { width: min(100%, 728px); height: 90px; margin: 12px auto 0; opacity: .9; }
+@media (max-width: 600px) { .ad-slot { height: 60px; } }

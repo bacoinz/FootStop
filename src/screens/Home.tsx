@@ -5,11 +5,22 @@ import { unlockAudio } from "../lib/sound.ts";
 import { useI18n } from "../lib/i18n.tsx";
 import { StopSign } from "../components/Brand.tsx";
 import { LangSelect } from "../components/LangSelect.tsx";
+import { AdSlot } from "../components/AdSlot.tsx";
 import { RulesModal } from "../components/Rules.tsx";
 
 export const VERSION = "1.0";
 export const REPO = "https://github.com/bacoinz/footstop";
 const KOFI = "https://ko-fi.com/bacoinz";
+
+export function KofiButton() {
+  const { t } = useI18n();
+  return (
+    <a className="kofi-btn" href={KOFI} target="_blank" rel="noopener">
+      <KofiCup />
+      <span>{t.support}</span>
+    </a>
+  );
+}
 
 function KofiCup() {
   return (
@@ -39,10 +50,7 @@ export function Footer() {
   const { t } = useI18n();
   return (
     <footer className="home-footer">
-      <a className="kofi-btn" href={KOFI} target="_blank" rel="noopener">
-        <KofiCup />
-        <span>{t.support}</span>
-      </a>
+      <KofiButton />
       <a className="foot-link" href={REPO} target="_blank" rel="noopener">
         <GithubMark />
         <span>GitHub</span>
@@ -144,6 +152,7 @@ export function Home({ go, initialCode }: { go: (code: string, solo: boolean) =>
         </button>
       </div>
 
+      <AdSlot />
       <Footer />
       <AnimatePresence>{rules && <RulesModal onClose={() => setRules(false)} />}</AnimatePresence>
     </main>
