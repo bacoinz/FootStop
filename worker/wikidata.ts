@@ -3,7 +3,7 @@
 import type { ClubFact, Facts } from "./facts.ts";
 
 const API = "https://www.wikidata.org/w/api.php";
-const UA = "Footstop/1.0 (https://footstop.fc-intel.workers.dev; football party game)";
+const UA = "Footstop/1.0 (https://footstop.bacoinz.workers.dev; football party game)";
 const HOME_NATIONS = new Set(["Q21", "Q22", "Q25", "Q26"]);
 const NOT_PLAYER_RE =
   /(^|[^a-zà-ú])(club|clube|team|equipa|seleção|stadium|estádio|season|temporada|rivalidade|rivalry|derby|dérbi|clássico|match|jogo|final|award|prémio|statue|estátua|film|filme|documentário|documentary|album|álbum|song|canção|book|livro|mural|museum|museu|family|família)($|[^a-zà-ú])/i;

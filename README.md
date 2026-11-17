@@ -5,14 +5,14 @@
 **Stop, the football edition: a letter or a category comes up, and everyone names a footballer before their clock runs out.**<br>
 A fast party game for 2 to 8 friends (or alone), with a chess clock, 92,000 real players and no time to think. Free to host on Cloudflare.
 
-<a href="https://footstop.fc-intel.workers.dev"><img src="https://img.shields.io/badge/play-footstop.fc--intel.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Play online"></a> <img src="https://img.shields.io/badge/version-1.0-d62828?style=flat-square&labelColor=06140d" alt="Version 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="License: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/cost-0%20%E2%82%AC%2Fmonth-d62828?style=flat-square&labelColor=06140d" alt="Cost: 0 €/month"> <img src="https://img.shields.io/badge/Cloudflare-Workers%20%C2%B7%20Durable%20Objects-d62828?style=flat-square&logo=cloudflare&logoColor=white&labelColor=06140d" alt="Cloudflare Workers and Durable Objects"> <img src="https://img.shields.io/badge/interface-English%20%C2%B7%20Portugu%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Interface: English and Portuguese"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-support%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Support Footstop on Ko-fi"></a>
+<a href="https://footstop.bacoinz.workers.dev"><img src="https://img.shields.io/badge/play-footstop.bacoinz.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Play online"></a> <img src="https://img.shields.io/badge/version-1.0-d62828?style=flat-square&labelColor=06140d" alt="Version 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="License: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/cost-0%20%E2%82%AC%2Fmonth-d62828?style=flat-square&labelColor=06140d" alt="Cost: 0 €/month"> <img src="https://img.shields.io/badge/Cloudflare-Workers%20%C2%B7%20Durable%20Objects-d62828?style=flat-square&logo=cloudflare&logoColor=white&labelColor=06140d" alt="Cloudflare Workers and Durable Objects"> <img src="https://img.shields.io/badge/interface-English%20%C2%B7%20Portugu%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Interface: English and Portuguese"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-support%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Support Footstop on Ko-fi"></a>
 
-[**▶ Play now**](https://footstop.fc-intel.workers.dev) · [How to play](#how-to-play) · [Run your own](#run-your-own) · [Report a bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇵🇹 Português](README.pt-PT.md)
+[**▶ Play now**](https://footstop.bacoinz.workers.dev) · [How to play](#how-to-play) · [Run your own](#run-your-own) · [Report a bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇵🇹 Português](README.pt-PT.md)
 
 </div>
 
 > [!TIP]
-> **Try it right now:** open **[footstop.fc-intel.workers.dev](https://footstop.fc-intel.workers.dev)**, create a room and share the link with your friends. No account, no install. Or press **Play solo** and see how many names you get.
+> **Try it right now:** open **[footstop.bacoinz.workers.dev](https://footstop.bacoinz.workers.dev)**, create a room and share the link with your friends. No account, no install. Or press **Play solo** and see how many names you get.
 
 ## Why Footstop
 
@@ -67,7 +67,7 @@ A letter (**M**) or a category (**Played for Benfica**, **Born in the 80s**, **F
 
 ## How to play
 
-1. **Create a room** at [footstop.fc-intel.workers.dev](https://footstop.fc-intel.workers.dev) and share the link (Discord works great). The host picks the seconds per player, the number of rounds and the round type.
+1. **Create a room** at [footstop.bacoinz.workers.dev](https://footstop.bacoinz.workers.dev) and share the link (Discord works great). The host picks the seconds per player, the number of rounds and the round type.
 2. **The centre circle spins** and draws a letter or a category. Six seconds later the first player's clock starts.
 3. **On your turn, type a footballer and press Enter.** Right: +2 s and the ball goes to the next player. Wrong: try again, your clock keeps running. Stuck: pass with **Esc** (−5 s).
 4. **Names:** first name and surname, just the surname, or the nickname. In letter rounds the first name or the surname must start with the letter, and a first name alone (*Lionel*) doesn't count. The same player can't be said twice in a round.

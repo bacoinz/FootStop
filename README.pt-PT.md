@@ -5,14 +5,14 @@
 **O Stop do futebol: sai uma letra ou uma categoria e cada um diz um futebolista antes que o relógio acabe.**<br>
 Um jogo rápido para 2 a 8 amigos (ou a solo), com relógio de xadrez, 92 mil jogadores reais e sem tempo para pensar. Grátis para alojar na Cloudflare.
 
-<a href="https://footstop.fc-intel.workers.dev"><img src="https://img.shields.io/badge/jogar-footstop.fc--intel.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Jogar online"></a> <img src="https://img.shields.io/badge/vers%C3%A3o-1.0-d62828?style=flat-square&labelColor=06140d" alt="Versão 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/licen%C3%A7a-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="Licença: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/custo-0%20%E2%82%AC%2Fm%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Custo: 0 €/mês"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-apoiar%20o%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Apoiar o Footstop no Ko-fi"></a>
+<a href="https://footstop.bacoinz.workers.dev"><img src="https://img.shields.io/badge/jogar-footstop.bacoinz.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Jogar online"></a> <img src="https://img.shields.io/badge/vers%C3%A3o-1.0-d62828?style=flat-square&labelColor=06140d" alt="Versão 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/licen%C3%A7a-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="Licença: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/custo-0%20%E2%82%AC%2Fm%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Custo: 0 €/mês"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-apoiar%20o%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Apoiar o Footstop no Ko-fi"></a>
 
-[**▶ Jogar agora**](https://footstop.fc-intel.workers.dev) · [Como jogar](#como-jogar) · [Alojar o teu](#alojar-o-teu) · [Reportar um bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇬🇧 English](README.md)
+[**▶ Jogar agora**](https://footstop.bacoinz.workers.dev) · [Como jogar](#como-jogar) · [Alojar o teu](#alojar-o-teu) · [Reportar um bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇬🇧 English](README.md)
 
 </div>
 
 > [!TIP]
-> **Experimenta já:** abre **[footstop.fc-intel.workers.dev](https://footstop.fc-intel.workers.dev)**, cria uma sala e partilha o link com os amigos. Sem conta e sem instalar nada. Ou carrega em **Jogar sozinho** e vê quantos nomes consegues.
+> **Experimenta já:** abre **[footstop.bacoinz.workers.dev](https://footstop.bacoinz.workers.dev)**, cria uma sala e partilha o link com os amigos. Sem conta e sem instalar nada. Ou carrega em **Jogar sozinho** e vê quantos nomes consegues.
 
 ## O jogo
 
@@ -28,7 +28,7 @@ Sai uma letra (**M**) ou uma categoria (**Jogou no Benfica**, **Nascidos nos ano
 
 ## Como jogar
 
-1. **Cria uma sala** em [footstop.fc-intel.workers.dev](https://footstop.fc-intel.workers.dev) e partilha o link. O anfitrião escolhe os segundos, o número de rondas e o tipo de rondas.
+1. **Cria uma sala** em [footstop.bacoinz.workers.dev](https://footstop.bacoinz.workers.dev) e partilha o link. O anfitrião escolhe os segundos, o número de rondas e o tipo de rondas.
 2. **O círculo central roda** e sorteia a ronda. Seis segundos depois começa o relógio do primeiro jogador.
 3. **Na tua vez, escreve um futebolista e carrega em Enter.** Certo: +2 s e a vez passa. Errado: tenta outra vez. Sem ideias: passa com **Esc** (−5 s).
 4. **Quem fica sem tempo sai da ronda.** No fim das rondas ganha quem tiver mais pontos.

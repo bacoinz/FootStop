@@ -47,7 +47,7 @@ const ROOT = new URL("..", import.meta.url);
 const CACHE = new URL("scripts/.cache/", ROOT);
 const OUT = new URL("public/data/players.bin", ROOT);
 const ENDPOINT = "https://query.wikidata.org/sparql";
-const UA = "Footstop/1.0 (https://footstop.fc-intel.workers.dev; football party game, data build script)";
+const UA = "Footstop/1.0 (https://footstop.bacoinz.workers.dev; football party game, data build script)";
 
 mkdirSync(CACHE, { recursive: true });
 mkdirSync(new URL("public/data/", ROOT), { recursive: true });
