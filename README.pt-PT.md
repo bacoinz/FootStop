@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="public/favicon.svg" alt="Logótipo do Footstop" width="96" height="96">
-
-# Footstop
+<img src="docs/screenshots/cover.png" alt="Footstop: diz um jogador antes que o relógio acabe" width="100%">
 
 **O Stop do futebol: sai uma letra ou uma categoria e cada um diz um futebolista antes que o relógio acabe.**<br>
 Um jogo rápido para 2 a 8 amigos (ou a solo), com relógio de xadrez, 92 mil jogadores reais e sem tempo para pensar. Grátis para alojar na Cloudflare.
@@ -10,8 +8,6 @@ Um jogo rápido para 2 a 8 amigos (ou a solo), com relógio de xadrez, 92 mil jo
 <a href="https://footstop.fc-intel.workers.dev"><img src="https://img.shields.io/badge/jogar-footstop.fc--intel.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Jogar online"></a> <img src="https://img.shields.io/badge/vers%C3%A3o-1.0-d62828?style=flat-square&labelColor=06140d" alt="Versão 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/licen%C3%A7a-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="Licença: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/custo-0%20%E2%82%AC%2Fm%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Custo: 0 €/mês"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-apoiar%20o%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Apoiar o Footstop no Ko-fi"></a>
 
 [**▶ Jogar agora**](https://footstop.fc-intel.workers.dev) · [Como jogar](#como-jogar) · [Alojar o teu](#alojar-o-teu) · [Reportar um bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇬🇧 English](README.md)
-
-<img src="docs/screenshots/round-desktop.png" alt="Uma ronda a decorrer: a letra à esquerda, os jogadores à volta do círculo central e o relógio à direita" width="100%">
 
 </div>
 

@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="public/favicon.svg" alt="Footstop logo" width="96" height="96">
-
-# Footstop
+<img src="docs/screenshots/cover.png" alt="Footstop: name a player, beat the clock" width="100%">
 
 **Stop, the football edition: a letter or a category comes up, and everyone names a footballer before their clock runs out.**<br>
 A fast party game for 2 to 8 friends (or alone), with a chess clock, 92,000 real players and no time to think. Free to host on Cloudflare.
@@ -10,8 +8,6 @@ A fast party game for 2 to 8 friends (or alone), with a chess clock, 92,000 real
 <a href="https://footstop.fc-intel.workers.dev"><img src="https://img.shields.io/badge/play-footstop.fc--intel.workers.dev-d62828?style=flat-square&labelColor=06140d" alt="Play online"></a> <img src="https://img.shields.io/badge/version-1.0-d62828?style=flat-square&labelColor=06140d" alt="Version 1.0"> <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-d62828?style=flat-square&labelColor=06140d" alt="License: PolyForm Noncommercial"></a> <img src="https://img.shields.io/badge/cost-0%20%E2%82%AC%2Fmonth-d62828?style=flat-square&labelColor=06140d" alt="Cost: 0 €/month"> <img src="https://img.shields.io/badge/Cloudflare-Workers%20%C2%B7%20Durable%20Objects-d62828?style=flat-square&logo=cloudflare&logoColor=white&labelColor=06140d" alt="Cloudflare Workers and Durable Objects"> <img src="https://img.shields.io/badge/interface-English%20%C2%B7%20Portugu%C3%AAs-d62828?style=flat-square&labelColor=06140d" alt="Interface: English and Portuguese"> <a href="https://ko-fi.com/bacoinz"><img src="https://img.shields.io/badge/Ko--fi-support%20Footstop-d62828?style=flat-square&logo=kofi&logoColor=white&labelColor=06140d" alt="Support Footstop on Ko-fi"></a>
 
 [**▶ Play now**](https://footstop.fc-intel.workers.dev) · [How to play](#how-to-play) · [Run your own](#run-your-own) · [Report a bug](https://github.com/bacoinz/footstop/issues/new/choose) · [🇵🇹 Português](README.pt-PT.md)
-
-<img src="docs/screenshots/round-desktop.png" alt="A round in progress: the letter on the left, the players around the centre circle and the clock on the right" width="100%">
 
 </div>
 
@@ -64,7 +60,7 @@ A letter (**M**) or a category (**Played for Benfica**, **Born in the 80s**, **F
     <td><img src="docs/screenshots/table-desktop.png" alt="The table after a round"></td>
   </tr>
   <tr>
-    <td><img src="docs/screenshots/game-end-desktop.png" alt="The end of the game: podium, final table and stats"></td>
+    <td><img src="docs/screenshots/round-desktop.png" alt="A letter round: live typing in the centre circle and the clock on the fourth official's board"></td>
     <td><img src="docs/screenshots/round-phone.png" alt="A round on a phone" width="49%"> <img src="docs/screenshots/home-phone.png" alt="The start screen on a phone" width="49%"></td>
   </tr>
 </table>
