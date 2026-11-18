@@ -29,7 +29,7 @@
 
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; margin: 0; }
-:root { --ad: 60px; }
+:root { --ad: 90px; }
 body { padding-bottom: var(--ad); box-sizing: border-box; }
 #ad-bar { position: fixed; left: 0; right: 0; bottom: 0; height: var(--ad); z-index: 5; display: flex; justify-content: center; background: #06140d; border-top: 1px solid rgba(255,255,255,.06); }
 #ad-bar iframe { border: 0; padding: 0; width: min(100%, 728px); height: 100%; overflow: hidden; display: block; }
