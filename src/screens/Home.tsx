@@ -9,6 +9,7 @@ import { RulesModal } from "../components/Rules.tsx";
 
 export const VERSION = "1.0";
 export const REPO = "https://github.com/bacoinz/footstop";
+const MORE = "https://github.com/bacoinz?tab=repositories";
 const KOFI = "https://ko-fi.com/bacoinz";
 
 export function KofiButton() {
@@ -44,12 +45,11 @@ function GithubMark() {
   );
 }
 
-/** Ko-fi, GitHub, version and bug reports. */
+/** GitHub, version and bug reports. */
 export function Footer() {
   const { t } = useI18n();
   return (
     <footer className="home-footer">
-      <KofiButton />
       <a className="foot-link" href={REPO} target="_blank" rel="noopener">
         <GithubMark />
         <span>GitHub</span>
@@ -149,6 +149,13 @@ export function Home({ go, initialCode }: { go: (code: string, solo: boolean) =>
         <button type="button" className="home-btn home-btn-outline" onClick={() => setRules(true)}>
           {t.howToPlay}
         </button>
+      </div>
+
+      <div className="home-support">
+        <KofiButton />
+        <a className="home-more" href={MORE} target="_blank" rel="noopener">
+          {t.otherGames}
+        </a>
       </div>
 
       <Footer />

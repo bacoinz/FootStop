@@ -20,6 +20,7 @@ const pt = {
   support: "Apoiar no Ko-fi",
   enjoyedIt: "Gostaste do jogo? O Footstop é grátis e sem anúncios chatos.",
   foundBug: "Encontraste um bug?",
+  otherGames: "Vê os meus outros jogos e apps",
   language: "Idioma",
 
   // Top bar and room
@@ -164,6 +165,7 @@ const en: Dict = {
   support: "Support on Ko-fi",
   enjoyedIt: "Enjoyed the game? Footstop is free and has no annoying ads.",
   foundBug: "Found a bug?",
+  otherGames: "See my other games and apps",
   language: "Language",
 
   leave: "Leave",

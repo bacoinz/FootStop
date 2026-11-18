@@ -139,7 +139,11 @@ a { color: #fff; }
 .home-btn-outline { background: transparent; border: 1px solid rgba(255, 255, 255, .15); }
 .home-btn-outline:hover { background: rgba(255, 255, 255, .05); }
 .home-buttons { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-.home-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 16px; margin-top: 8px; font-size: 13px; }
+.home-support { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 6px; }
+.home-more { font-size: 13px; color: var(--muted); text-decoration: none; }
+.home-more:hover { color: var(--text); text-decoration: underline; }
+.home-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 14px; margin-top: 4px; font-size: 11px; }
+.home-footer svg { width: 14px; height: 14px; }
 .kofi-btn { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px 7px 10px; border-radius: 999px; background: #29abe0; color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 4px 14px rgba(41, 171, 224, .33); transition: transform .15s, box-shadow .15s; }
 .kofi-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(41, 171, 224, .53); }
 .foot-link { display: inline-flex; align-items: center; gap: 6px; color: inherit; opacity: .8; text-decoration: none; }
