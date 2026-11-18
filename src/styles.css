@@ -29,10 +29,10 @@
 
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; margin: 0; }
-:root { --ad: 90px; }
+:root { --ad: 58px; }
 body { padding-bottom: var(--ad); box-sizing: border-box; }
-#ad-bar { position: fixed; left: 0; right: 0; bottom: 0; height: var(--ad); z-index: 5; display: flex; justify-content: center; background: #06140d; border-top: 1px solid rgba(255,255,255,.06); }
-#ad-bar iframe { border: 0; padding: 0; width: min(100%, 728px); height: 100%; overflow: hidden; display: block; }
+#ad-bar { position: fixed; left: 0; right: 0; bottom: 4px; height: 50px; z-index: 5; display: flex; justify-content: center; pointer-events: none; }
+#ad-bar iframe { border: 0; padding: 0; width: 320px; max-width: 100%; height: 50px; overflow: hidden; display: block; border-radius: 8px; opacity: .92; pointer-events: auto; }
 @media (min-width: 1100px) { html:has(.pitch) { font-size: 17.5px; } }
 body {
   background:
