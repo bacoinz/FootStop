@@ -5,7 +5,6 @@ import { unlockAudio } from "../lib/sound.ts";
 import { useI18n } from "../lib/i18n.tsx";
 import { StopSign } from "../components/Brand.tsx";
 import { LangSelect } from "../components/LangSelect.tsx";
-import { AdSlot } from "../components/AdSlot.tsx";
 import { RulesModal } from "../components/Rules.tsx";
 
 export const VERSION = "1.0";
@@ -152,7 +151,6 @@ export function Home({ go, initialCode }: { go: (code: string, solo: boolean) =>
         </button>
       </div>
 
-      <AdSlot />
       <Footer />
       <AnimatePresence>{rules && <RulesModal onClose={() => setRules(false)} />}</AnimatePresence>
     </main>

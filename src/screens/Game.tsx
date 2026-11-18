@@ -12,7 +12,6 @@ import { Pitch } from "../components/Pitch.tsx";
 import { Center } from "../components/Center.tsx";
 import { CategoryCard, Lives, MiniTable, MyClock, roundLabel } from "../components/RoundSide.tsx";
 import { KofiButton } from "./Home.tsx";
-import { AdSlot } from "../components/AdSlot.tsx";
 import { useI18n } from "../lib/i18n.tsx";
 import { LeagueTable, StatCards, standings } from "../components/Board.tsx";
 
@@ -316,7 +315,6 @@ function GameEnd({ view, api, leave }: { view: GameView; api: RoomApi; leave: ()
         <span>{t.enjoyedIt}</span>
         <KofiButton />
       </div>
-      <AdSlot />
       {buttons}
     </div>
   );
