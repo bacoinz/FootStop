@@ -31,8 +31,9 @@
 html, body, #root { height: 100%; margin: 0; }
 :root { --ad: 58px; }
 body { padding-bottom: var(--ad); box-sizing: border-box; }
-#ad-bar { position: fixed; left: 0; right: 0; bottom: 4px; height: 50px; z-index: 5; display: flex; justify-content: center; pointer-events: none; }
-#ad-bar iframe { border: 0; padding: 0; width: 320px; max-width: 100%; height: 50px; overflow: hidden; display: block; border-radius: 8px; opacity: .92; pointer-events: auto; }
+#ad-bar { position: fixed; left: 50%; bottom: 4px; width: 320px; max-width: 100%; height: 50px; margin-left: -160px; z-index: 99998; }
+#ad-bar iframe { border: 0; padding: 0; width: 320px; height: 50px; overflow: hidden; display: block; }
+@media (max-width: 320px) { #ad-bar { left: 0; margin-left: 0; } }
 @media (min-width: 1100px) { html:has(.pitch) { font-size: 17.5px; } }
 body {
   background:
