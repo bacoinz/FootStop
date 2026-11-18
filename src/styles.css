@@ -108,7 +108,7 @@ a { color: #fff; }
 .tagline { color: var(--muted); margin: 10px 0 0; max-width: 460px; }
 
 /* ---------- Home (same layout as Coach Board, in Footstop's red and white) ---------- */
-.home { position: relative; min-height: calc(100vh); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 28px 16px 40px; }
+.home { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 28px 16px 56px; }
 .home-lang { position: absolute; top: 14px; right: 16px; }
 .lang-select { padding: 4px 8px; border: 1px solid var(--panel-border); border-radius: 8px; background: #0b1a12; color: inherit; font: inherit; font-size: 13px; cursor: pointer; }
 .home-brand { text-align: center; }
@@ -139,10 +139,10 @@ a { color: #fff; }
 .home-btn-outline { background: transparent; border: 1px solid rgba(255, 255, 255, .15); }
 .home-btn-outline:hover { background: rgba(255, 255, 255, .05); }
 .home-buttons { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
-.home-support { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 6px; }
-.home-more { font-size: 13px; color: var(--muted); text-decoration: none; }
+.home-support { display: flex; flex-direction: column; align-items: center; gap: 14px; margin-top: 6px; }
+.home-more { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; font-size: 13px; color: var(--muted); text-decoration: none; }
 .home-more:hover { color: var(--text); text-decoration: underline; }
-.home-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 14px; margin-top: 4px; font-size: 11px; }
+.home-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 14px; position: absolute; left: 0; right: 0; bottom: 10px; font-size: 11px; }
 .home-footer svg { width: 14px; height: 14px; }
 .kofi-btn { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px 7px 10px; border-radius: 999px; background: #29abe0; color: #fff; font-weight: 800; text-decoration: none; box-shadow: 0 4px 14px rgba(41, 171, 224, .33); transition: transform .15s, box-shadow .15s; }
 .kofi-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(41, 171, 224, .53); }
@@ -152,7 +152,7 @@ a { color: #fff; }
 @media (max-width: 959px) { .home { justify-content: flex-start; padding-top: 56px; } }
 
 /* ---------- App frame ---------- */
-.app { min-height: calc(100vh); display: flex; flex-direction: column; }
+.app { min-height: 100vh; display: flex; flex-direction: column; }
 .topbar { display: flex; align-items: center; gap: 12px; padding: 8px 16px; border-bottom: 1px solid var(--panel-border); background: rgba(6, 20, 13, .75); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 20; }
 .pill { padding: 5px 12px; border-radius: 99px; background: rgba(255, 255, 255, .07); font-size: 13.6px; color: var(--muted); white-space: nowrap; }
 .pill b { color: var(--text); letter-spacing: .15em; }

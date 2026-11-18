@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ArrowUpRight } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { getName, newRoomCode, setName } from "../lib/identity.ts";
 import { unlockAudio } from "../lib/sound.ts";
@@ -9,7 +10,7 @@ import { RulesModal } from "../components/Rules.tsx";
 
 export const VERSION = "1.0";
 export const REPO = "https://github.com/bacoinz/footstop";
-const MORE = "https://github.com/bacoinz?tab=repositories";
+const MORE = "https://bacoinz.github.io/";
 const KOFI = "https://ko-fi.com/bacoinz";
 
 export function KofiButton() {
@@ -155,6 +156,7 @@ export function Home({ go, initialCode }: { go: (code: string, solo: boolean) =>
         <KofiButton />
         <a className="home-more" href={MORE} target="_blank" rel="noopener">
           {t.otherGames}
+          <ArrowUpRight size={14} aria-hidden />
         </a>
       </div>
 
